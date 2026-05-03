@@ -1,0 +1,5 @@
+[versions]
+harm = "2.2.4"
+
+[libraries]
+harm = { module = "io.ktor:ktor-server-status-pages", version.ref = "harm" }
